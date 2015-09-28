@@ -4,7 +4,7 @@
 #
 Name     : garcon
 Version  : 0.4.0
-Release  : 6
+Release  : 7
 URL      : http://archive.xfce.org/src/xfce/garcon/0.4/garcon-0.4.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/garcon/0.4/garcon-0.4.0.tar.bz2
 Summary  : Freedesktop.org compliant menu library
