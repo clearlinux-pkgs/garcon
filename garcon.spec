@@ -4,7 +4,7 @@
 #
 Name     : garcon
 Version  : 0.5.0
-Release  : 10
+Release  : 11
 URL      : http://archive.xfce.org/src/xfce/garcon/0.5/garcon-0.5.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/garcon/0.5/garcon-0.5.0.tar.bz2
 Summary  : Freedesktop.org compliant menu library
@@ -91,7 +91,7 @@ locales components for the garcon package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1490282197
+export SOURCE_DATE_EPOCH=1490282412
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
@@ -103,7 +103,7 @@ export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1490282197
+export SOURCE_DATE_EPOCH=1490282412
 rm -rf %{buildroot}
 %make_install
 %find_lang garcon
