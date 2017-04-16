@@ -1,3 +1,724 @@
+commit e65389b7d0e0ca99dedb9b25319244f981dbdf1c
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Fri Apr 14 10:28:48 2017 +0200
+
+    Fix left-alignment of labels in menuitems
+    
+    In Gtk2 left-alignment (xalign 0.0) was the default setting for
+    GtkLabels. In Gtk3 center-alignment is the default, which looks
+    bad in menus. Hence we set the xalign property to 0.0 explicitely
+    now.
+
+commit 03840db93dfbc223c8805e9f902a24b47b6ba318
+Author: Xosé <xosecalvo@gmail.com>
+Date:   Tue Mar 21 00:30:20 2017 +0100
+
+    I18n: Update translation gl (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 59059cb85cbce7c332093c651b60afdafe409fc6
+Author: Kevin Brubeck Unhammer <unhammer+dill@mm.st>
+Date:   Thu Mar 9 12:30:09 2017 +0100
+
+    I18n: Update translation nn (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit c4c4a8f02ffa4f9bd9517c7c152131e49be54ffb
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed Mar 1 15:44:42 2017 +0300
+
+    test: fix gtk_menu_popup being deprecated
+
+commit 46c20ea117d75189b60d3a77da2ce57422640e31
+Author: Kukuh Syafaat <syafaatkukuh@gmail.com>
+Date:   Sun Feb 26 06:30:14 2017 +0100
+
+    I18n: Update translation id (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0ea8ee5de903bb221ece9b38fe5455a50f1678cc
+Author: Ivica  Kolić <ikoli@yahoo.com>
+Date:   Sun Feb 26 00:30:25 2017 +0100
+
+    I18n: Update translation hr (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9d52b6e60204538444f7dedd304a5977a6299818
+Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+Date:   Fri Feb 17 00:30:10 2017 +0100
+
+    I18n: Update translation ca (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 73cfe67fb50f8ab3f424e78d20a28a0708c06f73
+Author: Øystein Alværvik <internett@protonmail.com>
+Date:   Fri Feb 10 18:30:10 2017 +0100
+
+    I18n: Update translation nn (94%).
+    
+    34 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ba006f7871e1b101c5709aaa2e85cb9c1b96b7fc
+Author: Pasi Lallinaho <pasi@shimmerproject.org>
+Date:   Thu Feb 2 18:30:17 2017 +0100
+
+    I18n: Update translation fi (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 36354817976eb442d624185c129e13f0e1391dbf
+Author: samson <sambelet@yahoo.com>
+Date:   Mon Jan 23 00:30:22 2017 +0100
+
+    I18n: Update translation am (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9ff7a3221b3c96afbb45bdb4c1bc9d8b157dda04
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jan 21 18:30:22 2017 +0100
+
+    I18n: Update translation ro (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 85f358c067c2f5b4b36635f33c228c56f815adee
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jan 19 12:30:09 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f35b32e8e2a0d8da2263bb1be6796da56764105c
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jan 14 12:30:22 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f37c4d2fcc00f66d998a09a2c82d8dde825fbed0
+Author: Cristian Marchi <cri.penta@gmail.com>
+Date:   Sat Dec 24 18:30:10 2016 +0100
+
+    I18n: Update translation it (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 59e17a4b99ec42448fa3d216afe6c0279513a944
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Thu Oct 13 18:30:18 2016 +0200
+
+    I18n: Update translation pt (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6025ba39378173676f8015f4311d627563fd07bc
+Author: vyper <xvirusxx@gmail.com>
+Date:   Mon Sep 26 06:30:18 2016 +0200
+
+    I18n: Update translation ro (94%).
+    
+    34 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2c26f099b043c65d4735fd4e53811cc911292fbc
+Author: abuyop <abuyop@gmail.com>
+Date:   Sat Sep 24 18:30:19 2016 +0200
+
+    I18n: Update translation ms (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f704a3815414d6665b8c3a77d7302e41d0ad25cb
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Sun Sep 11 18:30:09 2016 +0200
+
+    I18n: Update translation th (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit b3dd8fb3c7b3500b09b320c0358801efec77260d
+Author: Marcin XD <m4sk1n@o2.pl>
+Date:   Thu Sep 8 18:30:09 2016 +0200
+
+    I18n: Update translation pl (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 34b5eec372778f570e495eabb553f539f2db1aa2
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Sun Sep 4 18:30:24 2016 +0200
+
+    I18n: Update translation kk (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9af620364910ceb216a4b6f87bfcfc0f3cdcd0e5
+Author: Michael Findlay <translate@cobber-linux.org>
+Date:   Mon Aug 22 06:30:24 2016 +0200
+
+    I18n: Update translation en_AU (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 57696824b96b784cce5ab5288730a030dd0e78d0
+Author: Lovro Kudelić <lovro.kudelic@outlook.com>
+Date:   Tue Aug 9 12:30:22 2016 +0200
+
+    I18n: Update translation hr (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f57daea8459854739b3245d469468a99069a24a3
+Author: Påvel Nicklasson <pavelnicklasson@bahnhof.se>
+Date:   Sun Aug 7 18:30:24 2016 +0200
+
+    I18n: Update translation sv (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 54882274331d5973ed08e91a542aef741ae162cf
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Thu Aug 4 12:30:10 2016 +0200
+
+    I18n: Update translation ja (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit cd486bdacf26a05a8566acf803ea2b5a4ec29345
+Author: Yarema aka Knedlyk <yupadmin@gmail.com>
+Date:   Thu Aug 4 00:30:09 2016 +0200
+
+    I18n: Update translation uk (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f0978257152246ecef61da38c0b58dac90110ae5
+Author: Sergey Alyoshin <alyoshin.s@gmail.com>
+Date:   Sun Jul 31 12:30:09 2016 +0200
+
+    I18n: Update translation ru (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 42cba87763b187a167edeab1152b4a296ef7d12d
+Author: Necdet Yücel <necdetyucel@gmail.com>
+Date:   Mon Jul 25 12:30:18 2016 +0200
+
+    I18n: Update translation tr (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit da0be0b7e048f2863c648c12a81efdad47bc8c2a
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Sat Jul 16 12:30:09 2016 +0200
+
+    I18n: Update translation zh_CN (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit c4a4da34e35e63b099eb450de915b3894e49ad8f
+Author: André Miranda <andre42m@gmail.com>
+Date:   Thu Jul 7 18:30:09 2016 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ac20bfd9345dff147d55e6691ae0b2eb9a5eb3f3
+Author: Seong-ho Cho <darkcircle.0426@gmail.com>
+Date:   Sun Jul 3 18:30:09 2016 +0200
+
+    I18n: Update translation ko (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 52de4905e5754f19e1fc43deab8b43e1d14014f1
+Author: Allan Nordhøy <epost@anotheragency.no>
+Date:   Wed Jun 29 18:30:10 2016 +0200
+
+    I18n: Update translation nb (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 944c2b8cbf73bd4c4d5064130f6b6cb53aadcc1a
+Author: Manolo Díaz <diaz.manolo@gmail.com>
+Date:   Wed Jun 29 12:30:09 2016 +0200
+
+    I18n: Update translation es (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ecc6bfffd37d81a54ea240f182bd5f11df26d56a
+Author: Tobias Bannert <tobannert@gmail.com>
+Date:   Tue Jun 28 18:30:09 2016 +0200
+
+    I18n: Update translation de (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 61494fcc62d48b1ec838eb1e55487505e7d88616
+Author: Manolo Díaz <diaz.manolo@gmail.com>
+Date:   Thu Jun 23 00:30:10 2016 +0200
+
+    I18n: Update translation es (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 60b9498df77a59480d1bbd5420e300cd20d954b2
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Jun 22 12:30:09 2016 +0200
+
+    I18n: Update translation ru (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2ed9f8785c9d633f230fc38d33f3d7798b1437ff
+Author: Jeff Huang <s8321414@gmail.com>
+Date:   Tue Jun 21 12:30:09 2016 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9811cb2ae0e01890518021e2a1d236f7ead1e91c
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Tue Jun 21 12:30:09 2016 +0200
+
+    I18n: Update translation he (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit c27518601d9734f600e9907c0fcbeb810ee09076
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Tue Jun 21 12:30:09 2016 +0200
+
+    I18n: Update translation fr (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit fad07797c37ff9a4c26699ad3619c51cdc72271d
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Mon Jun 20 17:39:25 2016 +0300
+
+    garcon-gtk: Add an option to edit launchers
+    
+    xfdesktop has the ability to edit menu items on right click (or
+    shift + left click). Add this functionality into garcon-gtk so
+    other consumers of the library can use it if desired. It defaults
+    to off.
+
+commit d68a5d4ba67ea9d2bdb1468d200a7021c580fe5b
+Author: Michal Várady <miko.vaji@gmail.com>
+Date:   Mon Jun 6 00:30:09 2016 +0200
+
+    I18n: Update translation cs (100%).
+    
+    33 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0f793ad3fbfaafc30b30d106c105e5b6f8233042
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Sun Jun 5 18:30:09 2016 +0200
+
+    I18n: Update translation sr (100%).
+    
+    33 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit cd4d5a2e0cb5e65389e4b12b3ba79645e236a825
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Thu Jun 2 13:07:39 2016 +0300
+
+    Desktop actions custom icon support
+    
+    The FDO spec allows for actions in the desktop file to supply
+    a custom icon to use. This patch adds that support into the
+    GarconMenuItemAction as well as to garcon-gtk.
+
+commit 22dd867d7d0c87d7386c565aa1158d48b5442422
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Thu Jun 2 12:36:00 2016 +0300
+
+    Add options to the test-display-menu
+    
+    Allow us to easily test the different garcon-gtk options in the
+    test-display-menu -gtk2 && -gtk3 to easily verify changes.
+
+commit 6ba90b650cfea52d80ffe393ed62822cfba52827
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Thu Jun 2 11:57:58 2016 +0300
+
+    Show desktop actions in a submenu
+    
+    In garcon-gtk show the desktop actions in a submenu if the option
+    is turned on (off by default).
+
+commit 179b703a1a266ae3d8572a9fce4564b1970e4d9e
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Thu Jun 2 09:50:16 2016 +0300
+
+    Refactor code to reduce duplication
+
+commit 96ce38c31e25553c1436a24e6205aa147e2974c4
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed Jun 1 20:15:57 2016 +0300
+
+    Remove the old test-display-menu scripts
+
+commit 471cbaa2a933bf2d1c3ead021efb4098dea6913e
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed Jun 1 20:06:21 2016 +0300
+
+    Fix menu item label alignment with Gtk3
+
+commit aec77533132eb324180ef771e15226a752573eae
+Author: Danila Poyarkov <dannotemail@gmail.com>
+Date:   Wed Jun 1 19:55:22 2016 +0300
+
+    Added desktop actions support (bug #11268)
+    
+    * Minor changes by Eric, mostly dropping the changes
+    to the test-display-menu since it has changed and
+    fixing a couple g_return_if_fail macros which needed
+    to be g_return_val_if_fail.
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit d33941e5a1c2d6872458ee27ddb490b2aa6c1cea
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed Jun 1 19:45:28 2016 +0300
+
+    trivial: remove unused variable
+
+commit a06c26b9b97371a1e4005b651b02bd5c4569e237
+Author: Thomas Lange <thomas-lange2@gmx.de>
+Date:   Sun Mar 1 20:56:44 2015 +0100
+
+    Don't add a placeholder menu (Bug 11626)
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit d46becb0e7989fe3befc95a72c27dd76355fb176
+Author: John Lindgren <john.lindgren@aol.com>
+Date:   Fri Jul 10 12:55:36 2015 -0400
+
+    Fix assertion 'GTK_IS_WIDGET (widget)' failed.
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit 6ce5f2f7d6e98493deb8153ea28f37d4489c5e21
+Author: Jani Välimaa <wally@mageia.org>
+Date:   Tue Apr 7 20:24:55 2015 +0300
+
+    Fix missing menus when all items are in submenus (bug 11801)
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit 9a025157c077772461f27f1145b24a130fd3b6e7
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed Jun 1 18:35:26 2016 +0300
+
+    Use garcon-gtk for the test-display-menu
+    
+    And build gtk2 and gtk3 versions to easily test/verify changes.
+
+commit f4871cbe09fedfccc57d073a4ae9c61a3976b2bb
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue May 3 12:30:09 2016 +0200
+
+    I18n: Update translation bg (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d4de85405ebd71682fe800aa72c49720a1bc5901
+Author: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>
+Date:   Mon May 2 18:30:17 2016 +0200
+
+    I18n: Update translation ca (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit a0202cd26e8c34519cdda8e5beaba6e169fc6f75
+Author: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>
+Date:   Sat Apr 30 12:30:16 2016 +0200
+
+    I18n: Update translation ca (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 93b6f07d63338d173327846b688581d8ddea3641
+Author: Edson César Cunha de Oliveira <edsono@gmail.com>
+Date:   Mon Mar 28 00:30:09 2016 +0200
+
+    I18n: Update translation eo (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 088b539b75253d8f9566079de54d88f75de193c6
+Author: Cédric Valmary <cvalmary@yahoo.fr>
+Date:   Fri Mar 11 18:30:27 2016 +0100
+
+    I18n: Update translation oc (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 34acd542f3a6bec669480639b3e3f8a02c9a4879
+Author: samson <sambelet@yahoo.com>
+Date:   Thu Feb 25 06:30:09 2016 +0100
+
+    I18n: Update translation am (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f275a092122a3c75f6b7d9e26b56dc2b2526b928
+Author: samson <sambelet@yahoo.com>
+Date:   Tue Feb 23 18:30:10 2016 +0100
+
+    I18n: Update translation am (94%).
+    
+    32 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f0de9c0bf721a6df20cae1d2e4fb08d35df9c2ea
+Author: samson <sambelet@yahoo.com>
+Date:   Tue Feb 23 00:30:09 2016 +0100
+
+    I18n: Add new translation am (85%).
+    
+    29 translated messages, 5 untranslated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit df5dff5883ed27386275662d4c1da32dd7f44a5e
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Mon Feb 1 18:30:17 2016 +0100
+
+    I18n: Update translation he (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 173a5a604af3de00b542bb54a48376a02922c6b0
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Sat Jan 16 18:30:13 2016 +0100
+
+    I18n: Update translation he (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f248907ada6fe06cedbe6de36fc61b4a0639968b
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:   Fri Dec 11 18:30:25 2015 +0100
+
+    I18n: Update translation is (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 50d117b0957731b39f1711072fffffe8db6c4b87
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Nov 27 00:30:08 2015 +0100
+
+    I18n: Update translation lt (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d947f8cc3779271ae8cb1b95e154f0ecb68b35e8
+Author: Davidmp <medipas@gmail.com>
+Date:   Tue Nov 24 00:30:08 2015 +0100
+
+    I18n: Update translation ca (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d3c8c8dde1323eea13d1053db300592832135ae3
+Author: enolp <enolp@softastur.org>
+Date:   Sun Nov 15 06:30:30 2015 +0100
+
+    I18n: Update translation ast (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0a11a454598364816ac73c35c8c18c59ffaa57bb
+Author: enolp <enolp@softastur.org>
+Date:   Sun Nov 15 00:30:25 2015 +0100
+
+    I18n: Update translation ast (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit be3a625619650b5a40ff51e17bd46db18fccff1b
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Sep 20 06:30:24 2015 +0200
+
+    I18n: Update translation lt (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 94f87e319881a48c33b88837788f0696b5adbda0
+Author: Xosé <xosecalvo@gmail.com>
+Date:   Sat Sep 19 00:30:08 2015 +0200
+
+    I18n: Update translation gl (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ffc6fdb3aec473ff06b38c487b799bae95a01dc2
+Author: Påvel Nicklasson <pavelnicklasson@bahnhof.se>
+Date:   Mon Jul 20 00:30:25 2015 +0200
+
+    I18n: Update translation sv (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2994154cb48bedde556fd6e5c4c22e68c106e8f5
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Jul 12 00:30:08 2015 +0200
+
+    I18n: Update translation es (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d4e328731e93e2b82af0f3d50d1c2d99fca0c764
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Jun 24 18:30:18 2015 +0200
+
+    I18n: Update translation lt (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9a0f50d42ba624de0bc89c9f29df09a7b0bf0753
+Author: Kevin Brubeck Unhammer <unhammer+dill@mm.st>
+Date:   Tue Jun 16 18:30:23 2015 +0200
+
+    I18n: Update translation nn (100%).
+    
+    34 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 7a89642f72623576949221efb00e4c27302f4b5c
+Author: Landry Breuil <landry@xfce.org>
+Date:   Sun Apr 5 14:23:30 2015 +0200
+
+    post-release tag bump
+
 commit fd8644ea21515ae8ff883acbc0952719aafc2f6b
 Author: Landry Breuil <landry@xfce.org>
 Date:   Sun Apr 5 13:10:51 2015 +0200
@@ -5229,374 +5950,374 @@ Date:   Wed Aug 12 13:31:13 2009 +0200
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu May 7 17:49:02 2009 +0200
     
-        	* gdesktopmenu/gdesktopmenu.c: Fix typo in g_desktop_menu_get_type().
+            * gdesktopmenu/gdesktopmenu.c: Fix typo in g_desktop_menu_get_type().
     
     commit 8ac6ce691f11c31feea6410b473550f180238241
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu May 7 17:28:17 2009 +0200
     
-        	* gdesktopmenu/gdesktopmenu.{c,h}: Move _GDesktopMenu and
-        	  _GDesktopMenuClass into the header file in order for
-        	  GObject-introspection to work.
+            * gdesktopmenu/gdesktopmenu.{c,h}: Move _GDesktopMenu and
+              _GDesktopMenuClass into the header file in order for
+              GObject-introspection to work.
     
     commit cb9270e7bf96f3491afd7e89bd09eaa252a874e4
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu May 7 13:33:24 2009 +0200
     
-        	* docs/reference/: Improve API docs structure.
-        	* gdesktopmenu/Makefile.am, gdesktopmenu/gdesktopmenu.{c,h},
-        	  gdesktopmenu/gdesktopmenumain.{c,h}: Move init/shutdown code into
-        	  gdesktopmenumain.{c,h}.
+            * docs/reference/: Improve API docs structure.
+            * gdesktopmenu/Makefile.am, gdesktopmenu/gdesktopmenu.{c,h},
+              gdesktopmenu/gdesktopmenumain.{c,h}: Move init/shutdown code into
+              gdesktopmenumain.{c,h}.
     
     commit 69bf037252b6ec66695846f238e8d242df7f3e96
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu May 7 04:08:13 2009 +0200
     
-        	* Fix compilation errors, missing "lib" prefix and set the API version
-        	  to 1 (not the libtool one).
+            * Fix compilation errors, missing "lib" prefix and set the API version
+              to 1 (not the libtool one).
     
     commit cdc2006747cd9ff4a6c2a5b5f6e441e8f92e20fb
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu May 7 03:28:33 2009 +0200
     
-        	* Rename to gdesktopmenu. This will need a few more commits to work
-        	  again though.
+            * Rename to gdesktopmenu. This will need a few more commits to work
+              again though.
     
     commit ca38e06a2bc4f62efa4fa17deb661116175b93c5
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Mon May 4 00:10:56 2009 +0200
     
-        	* docs/reference/libxfce4menu-sections.txt,
-        	  libxfce4menu/xfce-menu-directory.{c,h},
-        	  libxfce4menu/xfce-menu-element.{c,h},
-        	  libxfce4menu/xfce-menu-item.{c,h},
-        	  libxfce4menu/xfce-menu-separator.c,
-        	  libxfce4menu/xfce-menu.c: Add xfce_menu_element_get_no_display() and
-        	  xfce_menu_element_get_visible_in_environment() to the
-        	  XfceMenuElement interface. Implement this in XfceMenu,
-        	  XfceMenuDirectory, XfceMenuItem and XfceMenuSeparator.
+            * docs/reference/libxfce4menu-sections.txt,
+              libxfce4menu/xfce-menu-directory.{c,h},
+              libxfce4menu/xfce-menu-element.{c,h},
+              libxfce4menu/xfce-menu-item.{c,h},
+              libxfce4menu/xfce-menu-separator.c,
+              libxfce4menu/xfce-menu.c: Add xfce_menu_element_get_no_display() and
+              xfce_menu_element_get_visible_in_environment() to the
+              XfceMenuElement interface. Implement this in XfceMenu,
+              XfceMenuDirectory, XfceMenuItem and XfceMenuSeparator.
     
     commit c5bda99f7d31cadf19978d85afb2da1eb1300698
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun May 3 23:31:17 2009 +0200
     
-        	* docs/reference/libxfce4menu-sections.txt, libxfce4menu/xfce-menu.c,
-        	  libxfce4menu/xfce-menu-element.{c,h}, libxfce4menu/xfce-menu-item.c,
-        	  libxfce4menu/xfce-menu-separator.c: Add new function
-        	  xfce_menu_element_get_comment() to the XfceMenuElement interface and
-        	  implement it in XfceMenu, XfceMenuItem and XfceMenuSeparator.
+            * docs/reference/libxfce4menu-sections.txt, libxfce4menu/xfce-menu.c,
+              libxfce4menu/xfce-menu-element.{c,h}, libxfce4menu/xfce-menu-item.c,
+              libxfce4menu/xfce-menu-separator.c: Add new function
+              xfce_menu_element_get_comment() to the XfceMenuElement interface and
+              implement it in XfceMenu, XfceMenuItem and XfceMenuSeparator.
     
     commit 681672a4bf447a33ecd36dda83fdc1323bd83745
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sat Apr 4 23:56:19 2009 +0200
     
-        	* AUTHORS: Add Travis Watkins as a contributor.
-        	* docs/reference: Update API docs.
-        	* libxfce4menu/xfce-menu-directory.{c,h},
-        	  libxfce4menu/xfce-menu-element.{c,h},
-        	  libxfce4menu/xfce-menu-item.c,
-        	  libxfce4menu/xfce-menu-separator.c, libxfce4menu/xfce-menu.c: Add
-        	  xfce_menu_element_get_visible() to XfceMenuElement. The
-        	  XfceMenuSeparator implementation always returns TRUE while the
-        	  XfceMenuItem implementation checks the Hidden/OnlyShowIn/NotShowIn
-        	  values of the corresponding desktop entry. XfceMenu checks the
-        	  Hidden/OnlyShowIn/NotShowIn values of its XfceMenuDirectory as well
-        	  as whether there are any visible child elements. Thanks to Travis
-        	  Watkins for the patch.
-        	* tests/test-display-menu.c, tests/test-menu-spec.c: Update tests to
-        	  reflect the latest API changes. Thanks to Travis for updating
-        	  test-display-menu.c.
+            * AUTHORS: Add Travis Watkins as a contributor.
+            * docs/reference: Update API docs.
+            * libxfce4menu/xfce-menu-directory.{c,h},
+              libxfce4menu/xfce-menu-element.{c,h},
+              libxfce4menu/xfce-menu-item.c,
+              libxfce4menu/xfce-menu-separator.c, libxfce4menu/xfce-menu.c: Add
+              xfce_menu_element_get_visible() to XfceMenuElement. The
+              XfceMenuSeparator implementation always returns TRUE while the
+              XfceMenuItem implementation checks the Hidden/OnlyShowIn/NotShowIn
+              values of the corresponding desktop entry. XfceMenu checks the
+              Hidden/OnlyShowIn/NotShowIn values of its XfceMenuDirectory as well
+              as whether there are any visible child elements. Thanks to Travis
+              Watkins for the patch.
+            * tests/test-display-menu.c, tests/test-menu-spec.c: Update tests to
+              reflect the latest API changes. Thanks to Travis for updating
+              test-display-menu.c.
     
     commit 1beaec37e3e59a734660624928b8fbe77b864cf8
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Mar 15 04:26:59 2009 +0100
     
-        	* STATUS: Update STATUS file.
+            * STATUS: Update STATUS file.
     
     commit 8e9a5a836005b47691c2c35b08230855d3fc57e2
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Mar 15 04:22:26 2009 +0100
     
-        	* docs/reference/: Update API docs.
-        	* libxfce4menu/libxfce4menu.c: Set path pointer to NULL after freeing
-        	  it to avoid random data in it.
-        	* libxfce4menu/xfce-menu-merger.c: Prepend a default layout element
-        	  to the root menu so that the root menu and its children have a
-        	  layout to use as a fallback. Remove empty layout elements so that
-        	  we can fallback to the default layout.
-        	* libxfce4menu/xfce-menu-node.{c,h}: Add new function
-        	  xfce_menu_node_tree_get_child_node(). Add
-        	  XFCE_MENU_NODE_TYPE_DEFAULT_LAYOUT to the XfceMenuNodeType enum.
-        	* libxfce4menu/xfce-menu-parser.c: Parse <DefaultLayout> elements.
-        	  Attributes are currently ignored.
-        	* libxfce4menu/xfce-menu.c: Properly look up the right layout or
-        	  default layout in xfce_menu_get_elements().
-        	* tests/test-display-menu.c, tests/test-menu-spec.c: Improve error
-        	  messages.
-        	* POTFILES.in: Remove deleted file xfce-menu-layout.c.
+            * docs/reference/: Update API docs.
+            * libxfce4menu/libxfce4menu.c: Set path pointer to NULL after freeing
+              it to avoid random data in it.
+            * libxfce4menu/xfce-menu-merger.c: Prepend a default layout element
+              to the root menu so that the root menu and its children have a
+              layout to use as a fallback. Remove empty layout elements so that
+              we can fallback to the default layout.
+            * libxfce4menu/xfce-menu-node.{c,h}: Add new function
+              xfce_menu_node_tree_get_child_node(). Add
+              XFCE_MENU_NODE_TYPE_DEFAULT_LAYOUT to the XfceMenuNodeType enum.
+            * libxfce4menu/xfce-menu-parser.c: Parse <DefaultLayout> elements.
+              Attributes are currently ignored.
+            * libxfce4menu/xfce-menu.c: Properly look up the right layout or
+              default layout in xfce_menu_get_elements().
+            * tests/test-display-menu.c, tests/test-menu-spec.c: Improve error
+              messages.
+            * POTFILES.in: Remove deleted file xfce-menu-layout.c.
     
     commit 57ea0ddfef80394168f14676f64b7e66c8c10b47
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Mar 15 03:14:14 2009 +0100
     
-        	* docs/reference/libxfce4menu-sections.txt,
-        	  docs/reference/libxfce4menu.types, libxfce4menu/Makefile.am,
-        	  libxfce4menu/libxfce4menu.h, libxfce4menu/xfce-menu.{c,h},
-        	  libxfce4menu/xfce-menu-layout.{c,h}: Remove XfceMenuLayout class.
-        	  Also remove xfce_menu_get_items() and rename
-        	  xfce_menu_get_layout_elements() to xfce_menu_get_elements(). Make
-        	  menu layouts work again with the GNode trees we have instead of
-        	  XfceMenuLayout now.
-        	* tests/test-display-menu.c, tests/test-menu-spec.c: Update tests to
-        	  the latest API.
+            * docs/reference/libxfce4menu-sections.txt,
+              docs/reference/libxfce4menu.types, libxfce4menu/Makefile.am,
+              libxfce4menu/libxfce4menu.h, libxfce4menu/xfce-menu.{c,h},
+              libxfce4menu/xfce-menu-layout.{c,h}: Remove XfceMenuLayout class.
+              Also remove xfce_menu_get_items() and rename
+              xfce_menu_get_layout_elements() to xfce_menu_get_elements(). Make
+              menu layouts work again with the GNode trees we have instead of
+              XfceMenuLayout now.
+            * tests/test-display-menu.c, tests/test-menu-spec.c: Update tests to
+              the latest API.
     
     commit 6370bb67c622e0ec699f6bccc2b2f9d12960e287
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Mar 15 02:17:10 2009 +0100
     
-        	* libxfce4menu/xfce-menu-node.c: Really fix the typo this time.
-        	* libxfce4menu/xfce-menu-parser.c: Remove break inside an if statement
-        	  and thereby fix the parsing of <Layout> child elements.
+            * libxfce4menu/xfce-menu-node.c: Really fix the typo this time.
+            * libxfce4menu/xfce-menu-parser.c: Remove break inside an if statement
+              and thereby fix the parsing of <Layout> child elements.
     
     commit a45b9bc65f11f8af8edd76359025cb3b2193aadf
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Mar 15 02:03:08 2009 +0100
     
-        	* libxfce4menu/xfce-menu-node.c: Fix type macro typo in
-        	  xfce_menu_node_tree_get_layout_merge_type().
+            * libxfce4menu/xfce-menu-node.c: Fix type macro typo in
+              xfce_menu_node_tree_get_layout_merge_type().
     
     commit e9606e53489220c0c418b3b7e597509091666345
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Mar 15 01:59:42 2009 +0100
     
-        	* libxfce4menu/xfce-menu-merger.c: Remove duplicate layout nodes and
-        	  only keep the last one.
+            * libxfce4menu/xfce-menu-merger.c: Remove duplicate layout nodes and
+              only keep the last one.
     
     commit 63a8fc24598d7ed329aaafcf927eab1b2f78fd64
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sat Mar 14 04:05:14 2009 +0100
     
-        	* libxfce4menu/*.h: Remove trailing semicolons after G_BEGIN_DECLS and
-        	  G_END_DECLS because it makes gobject-introspection freak out and its
-        	  also a bit of a syntax error. Reported by Travis Watkins.
+            * libxfce4menu/*.h: Remove trailing semicolons after G_BEGIN_DECLS and
+              G_END_DECLS because it makes gobject-introspection freak out and its
+              also a bit of a syntax error. Reported by Travis Watkins.
     
     commit 0baa89ae693321efea5c71bd84e2924bbb958817
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sat Mar 14 02:09:38 2009 +0100
     
-        	* INSTALL: Update the install information.
-        	* configure.in.in, libxfce4menu/libxfce4menu-0.1.pc.in,
-        	  libxfce4menu/xfce-menu-directory.c,
-        	  libxfce4menu/xfce-menu-item-cache.c, libxfce4menu/xfce-menu-item.c,
-        	  libxfce4menu/xfce-menu-merger.c, libxfce4menu/xfce-menu-parser.c: Get
-        	  rid of libxfce4util and related code like xfce_resource_dirs(). Use
-        	  GKeyFile instead of XfceRc. A lot of this code comes from Travis
-        	  Watkins <amaranth@ubuntu.com> who was kind enough to provide a
-        	  patch.
-        	* docs/reference/libxfce4menu-sections.txt: Update sections.
-        	* libxfce4menu/libxfce4menu.{c,h}: Rename xfce_menu_init() and
-        	  xfce_menu_shutdown() to libxfce4menu_init() and
-        	  libxfce4menu_shutdown(). Add new function
-        	  xfce_menu_config_lookup().
-        	* libxfce4menu/xfce-menu.{c,h}: Use xfce_menu_config_lookup() instead
-        	  of xfce_resource_lookup(). Remove xfce_menu_init() and
-        	  xfce_menu_shutdown() declaration in the header file.
-        	* tdb/: Remove TDB entirely.
-        	* tests/test-display-menu.c, tests/test-menu-parser.c,
-        	  tests/test-menu-spec.c: Update to new API and get rid of
-        	  libxfce4util code.
-        	* POTFILES.in: Update translatable source file list.
-        	* libxfce4menu-0.1.pot: Update pot file.
+            * INSTALL: Update the install information.
+            * configure.in.in, libxfce4menu/libxfce4menu-0.1.pc.in,
+              libxfce4menu/xfce-menu-directory.c,
+              libxfce4menu/xfce-menu-item-cache.c, libxfce4menu/xfce-menu-item.c,
+              libxfce4menu/xfce-menu-merger.c, libxfce4menu/xfce-menu-parser.c: Get
+              rid of libxfce4util and related code like xfce_resource_dirs(). Use
+              GKeyFile instead of XfceRc. A lot of this code comes from Travis
+              Watkins <amaranth@ubuntu.com> who was kind enough to provide a
+              patch.
+            * docs/reference/libxfce4menu-sections.txt: Update sections.
+            * libxfce4menu/libxfce4menu.{c,h}: Rename xfce_menu_init() and
+              xfce_menu_shutdown() to libxfce4menu_init() and
+              libxfce4menu_shutdown(). Add new function
+              xfce_menu_config_lookup().
+            * libxfce4menu/xfce-menu.{c,h}: Use xfce_menu_config_lookup() instead
+              of xfce_resource_lookup(). Remove xfce_menu_init() and
+              xfce_menu_shutdown() declaration in the header file.
+            * tdb/: Remove TDB entirely.
+            * tests/test-display-menu.c, tests/test-menu-parser.c,
+              tests/test-menu-spec.c: Update to new API and get rid of
+              libxfce4util code.
+            * POTFILES.in: Update translatable source file list.
+            * libxfce4menu-0.1.pot: Update pot file.
     
     commit ae27baffe7adf8d5557296689907f8f6ee045e38
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu Mar 12 02:29:11 2009 +0100
     
-        	* libxfce4menu/xfce-menu-monitor.h, libxfce4menu/libxfce4menu.c:
-        	  Something is wrong with the API docs. Another try to fix them.
+            * libxfce4menu/xfce-menu-monitor.h, libxfce4menu/libxfce4menu.c:
+              Something is wrong with the API docs. Another try to fix them.
     
     commit 916fee3ae4934e3876f8bc0ccc2532d73d8f8baa
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu Mar 12 01:06:40 2009 +0100
     
-        	* libxfce4menu/xfce-menu-monitor.h, libxfce4menu/xfce-menu.c: Try to
-        	  fix broken API docs syntax and add docs for the
-        	  XfceMenuMonitorVTable members.
+            * libxfce4menu/xfce-menu-monitor.h, libxfce4menu/xfce-menu.c: Try to
+              fix broken API docs syntax and add docs for the
+              XfceMenuMonitorVTable members.
     
     commit e27803e72515c0d22272ffc20ef6450236fd95c1
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Thu Mar 12 00:38:48 2009 +0100
     
-        	* libxfce4menu/xfce-menu-directory.{c,h}: Add function
-        	  xfce_menu_directory_equal() which compares two XfceMenuDirectory
-        	  objects based on their GFile members.
-        	* libxfce4menu/xfce-menu-layout.{c,h}: Use GList instead of GSList
-        	  everywhere.
-        	* libxfce4menu/xfce-menu-merger.{c,h}: Never access GNode data
-        	  directly. Instead always use the xfce_menu_node_tree*() functions.
-        	* libxfce4menu/xfce-menu-node.{c,h}: Add functions
-        	  xfce_menu_node_tree_get_child_nodes(),
-        	  xfce_menu_node_tree_get_string_children(),
-        	  xfce_menu_node_tree_get_boolean_child() and
-        	  xfce_menu_node_tree_get_string_child() to collect the values of
-        	  immediate children of a GNode tree.  Add new functions
-        	  xfce_menu_node_tree_set_string() and
-        	  xfce_menu_node_tree_set_merge_file_filename() so that GNode data
-        	  needs to be accessed less often. Fix assertions in a few other
-        	  functions.
-        	* libxfce4menu/xfce-menu-parser.c: Fix segmentation fault due to an
-        	  uninitialized GError in GIO.
-        	* libxfce4menu/xfce-menu.{c,h}: Use GList instead of GSList everywhere.
-        	  Improve API docs for a few public functions. Change xfce_menu_new()
-        	  again to expect a filename as the first parameter. Add a separate
-        	  function xfce_menu_new_for_file() to create an XfceMenu from a
-        	  GFile. Rename xfce_menu_get_root() to xfce_menu_new_applications().
-        	  Replace a lot of traversing code with the new
-        	  xfce_menu_node_tree_get*() functions.
-        	* tests/test-display-menu.c, tests/test-menu-parser.c,
-        	  tests/test-menu-spec.c: Update to new libxfce4menu API.
+            * libxfce4menu/xfce-menu-directory.{c,h}: Add function
+              xfce_menu_directory_equal() which compares two XfceMenuDirectory
+              objects based on their GFile members.
+            * libxfce4menu/xfce-menu-layout.{c,h}: Use GList instead of GSList
+              everywhere.
+            * libxfce4menu/xfce-menu-merger.{c,h}: Never access GNode data
+              directly. Instead always use the xfce_menu_node_tree*() functions.
+            * libxfce4menu/xfce-menu-node.{c,h}: Add functions
+              xfce_menu_node_tree_get_child_nodes(),
+              xfce_menu_node_tree_get_string_children(),
+              xfce_menu_node_tree_get_boolean_child() and
+              xfce_menu_node_tree_get_string_child() to collect the values of
+              immediate children of a GNode tree.  Add new functions
+              xfce_menu_node_tree_set_string() and
+              xfce_menu_node_tree_set_merge_file_filename() so that GNode data
+              needs to be accessed less often. Fix assertions in a few other
+              functions.
+            * libxfce4menu/xfce-menu-parser.c: Fix segmentation fault due to an
+              uninitialized GError in GIO.
+            * libxfce4menu/xfce-menu.{c,h}: Use GList instead of GSList everywhere.
+              Improve API docs for a few public functions. Change xfce_menu_new()
+              again to expect a filename as the first parameter. Add a separate
+              function xfce_menu_new_for_file() to create an XfceMenu from a
+              GFile. Rename xfce_menu_get_root() to xfce_menu_new_applications().
+              Replace a lot of traversing code with the new
+              xfce_menu_node_tree_get*() functions.
+            * tests/test-display-menu.c, tests/test-menu-parser.c,
+              tests/test-menu-spec.c: Update to new libxfce4menu API.
     
     commit 16f4b0a5bf618c39d7cd00809e80283c92b2854a
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 19:56:11 2009 +0100
     
-        	* libxfce4menu/libxfce4menu.c: Add missing source file.
-        	* docs/reference/: Try to get the damn docs right.
-        	* libxfce4menu/libxfce4menu.{c,h}, libxfce4menu/xfce-menu.c: Move
-        	  xfce_menu_init() and xfce_menu_shutdown() into libxfce4menu.{c,h}.
-        	  Fix #undef LIBXFCE4MENU_INSIDE_LIBXFCE4MENU_H.
-        	* libxfce4menu/xfce-menu-node.{c,h}: Make XfceMenuNodeType enum code
-        	  private.
+            * libxfce4menu/libxfce4menu.c: Add missing source file.
+            * docs/reference/: Try to get the damn docs right.
+            * libxfce4menu/libxfce4menu.{c,h}, libxfce4menu/xfce-menu.c: Move
+              xfce_menu_init() and xfce_menu_shutdown() into libxfce4menu.{c,h}.
+              Fix #undef LIBXFCE4MENU_INSIDE_LIBXFCE4MENU_H.
+            * libxfce4menu/xfce-menu-node.{c,h}: Make XfceMenuNodeType enum code
+              private.
     
     commit ddc429f7579481beea1882ed2bcf04b92524dc2e
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 19:52:54 2009 +0100
     
-        	* docs/reference/: Try to get the damn docs right.
-        	* libxfce4menu/libxfce4menu.{c,h}, libxfce4menu/xfce-menu.c: Move
-        	  xfce_menu_init() and xfce_menu_shutdown() into libxfce4menu.{c,h}.
-        	  Fix #undef LIBXFCE4MENU_INSIDE_LIBXFCE4MENU_H.
-        	* libxfce4menu/xfce-menu-node.{c,h}: Make XfceMenuNodeType enum code
-        	  private.
+            * docs/reference/: Try to get the damn docs right.
+            * libxfce4menu/libxfce4menu.{c,h}, libxfce4menu/xfce-menu.c: Move
+              xfce_menu_init() and xfce_menu_shutdown() into libxfce4menu.{c,h}.
+              Fix #undef LIBXFCE4MENU_INSIDE_LIBXFCE4MENU_H.
+            * libxfce4menu/xfce-menu-node.{c,h}: Make XfceMenuNodeType enum code
+              private.
     
     commit a59ae46f053fab057408b0fa86011d4a543758d9
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 18:20:34 2009 +0100
     
-        	* docs/reference/: Remove tmpl/ subdir.
+            * docs/reference/: Remove tmpl/ subdir.
     
     commit 68b50bdd7ef47fd4734a76729c2961088b49d1a0
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 18:04:53 2009 +0100
     
-        	* docs/reference/: Update API docs.
+            * docs/reference/: Update API docs.
     
     commit b13a8f36fd6d378d100651b0d7e9a2d198656af0
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 17:47:32 2009 +0100
     
-        	* libxfce4menu/xfce-menu-node.h: Add missing declaration for
-        	  xfce_menu_node_type_get_type().
+            * libxfce4menu/xfce-menu-node.h: Add missing declaration for
+              xfce_menu_node_type_get_type().
     
     commit 4efdc16b02338f15aa5563cb455d06664d0a9d94
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 17:43:50 2009 +0100
     
-        	* docs/reference/: Update API docs section and stuff.
-        	* libxfce4menu/xfce-menu-move.{c,h}: Remove unused source files.
+            * docs/reference/: Update API docs section and stuff.
+            * libxfce4menu/xfce-menu-move.{c,h}: Remove unused source files.
     
     commit ba7f55403348aac3118384b413a28cd9c838ea44
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 17:30:04 2009 +0100
     
-        	* libfxce4menu/Makefile.am: Remove non-existent files and missing
-        	  ones.
+            * libfxce4menu/Makefile.am: Remove non-existent files and missing
+              ones.
     
     commit 851ebfcb32feabbc572bc11e6e534df725d53cc8
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 17:26:54 2009 +0100
     
-        	* libxfce4menu/xfce-menu-gio.{c,h}: Add missing source files for a few
-        	  GIO/GFile utility functions.
+            * libxfce4menu/xfce-menu-gio.{c,h}: Add missing source files for a few
+              GIO/GFile utility functions.
     
     commit 41296e94a42c1898d7adcb6262539f1d32ae79c9
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Tue Feb 24 17:08:10 2009 +0100
     
-        	* STATUS: Big status update.
-        	* TODO: Create a TODO list.
-        	* configure.in.in, Makefile.am, tdb/: Remove TDB entirely.
-        	* libxfce4menu/libxfce4menu.h: Clean up.
-        	* libxfce4menu/xfce-menu-and-rules.{c,h},
-        	  libxfce4menu/xfce-menu-not-rules.{c,h},
-        	  libxfce4menu/xfce-menu-or-rules.{c,h},
-        	  libxfce4menu/xfce-menu-standard-rules.{c,h},
-        	  libxfce4menu/xfce-menu-rules.{c,h}: Remove all the XfceMenu*Rules
-        	  classes. Replace them with one very simple XfceMenuNode function.
-        	* libxfce4menu/xfce-menu-directory.{c,h}: Replace the filename string
-        	  property with a GFile file property. Replace
-        	  xfce_menu_directory_get_filename() with
-        	  xfce_menu_directory_get_file() and remove
-        	  xfce_menu_directory_set_filename(). Fix typos in the signal
-        	  installation code.
-        	* libxfce4menu/xfce-menu-item-cache.c: Remove all TDB related code.
-        	  Avoid memory leaks when creating new items (same patch as went into
-        	  the old trunk a while ago, bug #3812).
-        	* libxfce4menu/xfce-menu-item-pool.{c,h}: Update
-        	  xfce_menu_item_pool_apply_exclude_rule() and
-        	  xfce_menu_item_pool_filter_exclude() to use a GNode instead of an
-        	  XfceMenuRuleStandardRules.
-        	* libxfce4menu/xfce-menu-item.{c,h}: Accept URIs as input to
-        	  xfce_menu_item_new() and convert them to paths using GFile.
-        	* libxfce4menu/xfce-menu-merger.{c,h}: Implement the missing merging
-        	  and moving code. Fix a lot of bugs in the code. Never access
-        	  XfceMenuNodes directly, always use xfce_menu_node_tree_*()
-        	  functions.
-        	* libxfce4menu/xfce-menu-node.{c,h}: Add more xfce_menu_node_tree*()
-        	  functions. Simplify the code. Add support for matching
-        	  Include/Exclude/And/Or/etc. rules against XfceMenuItems.
-        	* libxfce4menu/xfce-menu-parser.{c,h}: Minor cleanups.
-        	* libxfce4menu/xfce-menu.{c,h}: Change the first parameter of
-        	  xfce_menu_new() to GFile. Remove all the parsing code. Use
-        	  XfceMenuParser and XfceMenuMerger in xfce_menu_load(). Update all
-        	  the menu loading code to use GNode DOM trees. Replace the filename
-        	  property with a GFile file property. Still waiting to be implemented
-        	  again is the layout stuff. Remove functions like
-        	  xfce_menu_get_directory_dirs() which were not meant for public use
-        	  anyway.
-        	* tests/test-display-menu.c, tests/test-menu-parser.c,
-        	  tests/test-menu-spec.c: Update to the new API. Cleanups.
+            * STATUS: Big status update.
+            * TODO: Create a TODO list.
+            * configure.in.in, Makefile.am, tdb/: Remove TDB entirely.
+            * libxfce4menu/libxfce4menu.h: Clean up.
+            * libxfce4menu/xfce-menu-and-rules.{c,h},
+              libxfce4menu/xfce-menu-not-rules.{c,h},
+              libxfce4menu/xfce-menu-or-rules.{c,h},
+              libxfce4menu/xfce-menu-standard-rules.{c,h},
+              libxfce4menu/xfce-menu-rules.{c,h}: Remove all the XfceMenu*Rules
+              classes. Replace them with one very simple XfceMenuNode function.
+            * libxfce4menu/xfce-menu-directory.{c,h}: Replace the filename string
+              property with a GFile file property. Replace
+              xfce_menu_directory_get_filename() with
+              xfce_menu_directory_get_file() and remove
+              xfce_menu_directory_set_filename(). Fix typos in the signal
+              installation code.
+            * libxfce4menu/xfce-menu-item-cache.c: Remove all TDB related code.
+              Avoid memory leaks when creating new items (same patch as went into
+              the old trunk a while ago, bug #3812).
+            * libxfce4menu/xfce-menu-item-pool.{c,h}: Update
+              xfce_menu_item_pool_apply_exclude_rule() and
+              xfce_menu_item_pool_filter_exclude() to use a GNode instead of an
+              XfceMenuRuleStandardRules.
+            * libxfce4menu/xfce-menu-item.{c,h}: Accept URIs as input to
+              xfce_menu_item_new() and convert them to paths using GFile.
+            * libxfce4menu/xfce-menu-merger.{c,h}: Implement the missing merging
+              and moving code. Fix a lot of bugs in the code. Never access
+              XfceMenuNodes directly, always use xfce_menu_node_tree_*()
+              functions.
+            * libxfce4menu/xfce-menu-node.{c,h}: Add more xfce_menu_node_tree*()
+              functions. Simplify the code. Add support for matching
+              Include/Exclude/And/Or/etc. rules against XfceMenuItems.
+            * libxfce4menu/xfce-menu-parser.{c,h}: Minor cleanups.
+            * libxfce4menu/xfce-menu.{c,h}: Change the first parameter of
+              xfce_menu_new() to GFile. Remove all the parsing code. Use
+              XfceMenuParser and XfceMenuMerger in xfce_menu_load(). Update all
+              the menu loading code to use GNode DOM trees. Replace the filename
+              property with a GFile file property. Still waiting to be implemented
+              again is the layout stuff. Remove functions like
+              xfce_menu_get_directory_dirs() which were not meant for public use
+              anyway.
+            * tests/test-display-menu.c, tests/test-menu-parser.c,
+              tests/test-menu-spec.c: Update to the new API. Cleanups.
     
     commit c066f3c376d29eed1c9919f77e7cfa289d6e1375
     Author: Jannis Pohlmann <jannis@xfce.org>
     Date:   Sun Feb 22 20:43:33 2009 +0100
     
-        	* configure.in.in: Depend on GTK+ 2.12 and GLib 2.14. Add dependency
-        	  on GIO 2.14 as well.
-        	* libxfce4menu/Makefile.am: Add new source and header files.
-        	* libxfce4menu/libxfce4menu.h: Add new header files.
-        	* libxfce4menu/xfce-menu-node.{c,h}: Add new class XfceMenuNode which
-        	  holds the information for one element in the menu DOM tree, e.g.
-        	  <MergeFile>, <Name> or <Menu>
-        	* libxfce4menu/xfce-menu-tree-provider.{c,h}: Add new interface
-        	  XfceMenuTreeProvider for classes which hold a GNode DOM
-        	  representation for .menu files.
-        	* libxfce4menu/xfce-menu-parser.{c,h}: Add new parser for .menu XML
-        	  files. It builds a GNode DOM representation for the XML data. Each
-        	  GNode in the tree (except for the menu nodes) contains one
-        	  XfceMenuNode for the XML element information. The parser implements
-        	  XfceMenuTreeProvider.
-        	* libxfce4menu/xfce-menu-merger.{c,h}: Add new class XfceMenuMerger
-        	  which takes the DOM tree from the parser or any other
-        	  XfceMenuTreeProvider and resolves duplicates, relative paths and,
-        	  most importantly, merges and deletes menus according to the
-        	  information in the DOM tree. It implements XfceMenuTreeProvider. It
-        	  is not complete yet because it doesn't implement <Move> elements
-        	  and is not capable of consolidating child menus with the same name
-        	  at the moment.
-        	* tests/Makefile.am, tests/test-menu-parser.c: Add a small test
-        	  program which parses a menu file using XfceMenuParser and then runs
-        	  an XfceMenuMerger and prints the output of both.
+            * configure.in.in: Depend on GTK+ 2.12 and GLib 2.14. Add dependency
+              on GIO 2.14 as well.
+            * libxfce4menu/Makefile.am: Add new source and header files.
+            * libxfce4menu/libxfce4menu.h: Add new header files.
+            * libxfce4menu/xfce-menu-node.{c,h}: Add new class XfceMenuNode which
+              holds the information for one element in the menu DOM tree, e.g.
+              <MergeFile>, <Name> or <Menu>
+            * libxfce4menu/xfce-menu-tree-provider.{c,h}: Add new interface
+              XfceMenuTreeProvider for classes which hold a GNode DOM
+              representation for .menu files.
+            * libxfce4menu/xfce-menu-parser.{c,h}: Add new parser for .menu XML
+              files. It builds a GNode DOM representation for the XML data. Each
+              GNode in the tree (except for the menu nodes) contains one
+              XfceMenuNode for the XML element information. The parser implements
+              XfceMenuTreeProvider.
+            * libxfce4menu/xfce-menu-merger.{c,h}: Add new class XfceMenuMerger
+              which takes the DOM tree from the parser or any other
+              XfceMenuTreeProvider and resolves duplicates, relative paths and,
+              most importantly, merges and deletes menus according to the
+              information in the DOM tree. It implements XfceMenuTreeProvider. It
+              is not complete yet because it doesn't implement <Move> elements
+              and is not capable of consolidating child menus with the same name
+              at the moment.
+            * tests/Makefile.am, tests/test-menu-parser.c: Add a small test
+              program which parses a menu file using XfceMenuParser and then runs
+              an XfceMenuMerger and prints the output of both.
 
 commit 131ec8a61226d262abac0b6d9cc72955e8bedf22
 Author: SZERVÁC Attila <sas@321.hu>
@@ -5620,7 +6341,7 @@ commit 7ab774d2bddd34a188ef11b8d8ad498c381655d2
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Feb 3 23:09:14 2009 +0000
 
-    	* NEWS: Update NEWS.
+            * NEWS: Update NEWS.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29446 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5628,11 +6349,11 @@ commit 5bd80cdee379d53777b99956b20d3a2883c29993
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Feb 3 23:05:07 2009 +0000
 
-    	* COPYING: Add "no invariant sections" hint to the GFDL.
-    	* configure.in.in: Post-release version bump.
-    	* libxfce4mixer/xfce-menu.c: Fix crash when reading invalid menu files
-    	  with characters outside the root <Menu> element. Of course this even
-    	  works with documents which have no <Menu> element at all.
+            * COPYING: Add "no invariant sections" hint to the GFDL.
+            * configure.in.in: Post-release version bump.
+            * libxfce4mixer/xfce-menu.c: Fix crash when reading invalid menu files
+              with characters outside the root <Menu> element. Of course this even
+              works with documents which have no <Menu> element at all.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29445 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5673,7 +6394,7 @@ commit 3eca2f531e140069f2c750a7b46bd7d5424e5529
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Jan 25 01:14:13 2009 +0000
 
-    	* NEWS: Update NEWS for the release.
+            * NEWS: Update NEWS for the release.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29330 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5681,10 +6402,10 @@ commit d46897a1d1f560b75833d9b569882cf9f8752f70
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Jan 25 01:13:41 2009 +0000
 
-    	* == 4.5.99.1 released! ==
-    	* configure.in.in: Bump version and dependencies and remove 'svn'
-    	  version tag.
-     	* *.po: Update translation files.
+            * == 4.5.99.1 released! ==
+            * configure.in.in: Bump version and dependencies and remove 'svn'
+              version tag.
+            * *.po: Update translation files.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29328 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5692,8 +6413,8 @@ commit 82c6a88c37e2d5a6e0a0dbaee39146dd319d06af
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Jan 23 00:07:04 2009 +0000
 
-    	* COPYING: Add GFDL 1.1 as requested by Michael Casadevall from
-    	  Xubuntu.
+            * COPYING: Add GFDL 1.1 as requested by Michael Casadevall from
+              Xubuntu.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29295 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5701,7 +6422,7 @@ commit c804d6cde6138d3d7448979a4fbb874721a8188c
 Author: Per Kongstad <pko@xfce.org>
 Date:   Thu Jan 22 09:28:46 2009 +0000
 
-    	* da.po: Updated to version 4.5.92 (Per Kongstad)
+            * da.po: Updated to version 4.5.92 (Per Kongstad)
     
     
     
@@ -5754,7 +6475,7 @@ Date:   Thu Jan 22 09:28:46 2009 +0000
     
     
     
-     	* da.po: updated to version 4.5.92 (Per Kongstad)
+            * da.po: updated to version 4.5.92 (Per Kongstad)
     
     
     
@@ -5811,7 +6532,7 @@ Date:   Thu Jan 22 09:28:46 2009 +0000
     
     
     
-    	* da.po, LINGUAS: Danish Translation added (Per Kongstad)
+            * da.po, LINGUAS: Danish Translation added (Per Kongstad)
     
     
     
@@ -5860,23 +6581,23 @@ Author: Alexander Toresson <alexander.toresson@gmail.com>
 Date:   Sun Jan 18 12:32:33 2009 +0000
 
     xfce4-session/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-panel/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-settings/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfce4menu/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfce4util/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfwm4/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-appfinder/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfconf/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfcegui4/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29271 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5910,7 +6631,7 @@ commit 74362439cd7d77dff6fcce95238dfabdbbf8d7a2
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Wed Jan 14 21:08:37 2009 +0000
 
-    	* configure.in.in: Post-release version bump.
+            * configure.in.in: Post-release version bump.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29238 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5918,8 +6639,8 @@ commit 787b2d65601db20834a11fa9ba616b4d2d5a4523
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Mon Jan 12 21:04:35 2009 +0000
 
-    	* configure.in.in: Bump version and dependencies and remove 'svn'
-    	  version tag.
+            * configure.in.in: Bump version and dependencies and remove 'svn'
+              version tag.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29194 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5927,8 +6648,8 @@ commit cfc4c381694db835bc53640dbe6103394f8df3c0
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Mon Jan 12 21:04:31 2009 +0000
 
-    	* == 4.5.93 released! ==
-    	* configure.in.in: Bump version and dependencies.
+            * == 4.5.93 released! ==
+            * configure.in.in: Bump version and dependencies.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29193 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5944,9 +6665,9 @@ commit 85320eeeaef472986ad2014a73ac44e33ac1faf6
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Jan 10 23:06:51 2009 +0000
 
-    	* NEWS: Update NEWS for the upcoming 4.5.93 (Xfce 4.6 beta3) release.
-     	* libxfce4menu-0.1.pot, *.po: Update translation files just to make
-    	  sure they are up to date for the string-freeze release.
+            * NEWS: Update NEWS for the upcoming 4.5.93 (Xfce 4.6 beta3) release.
+            * libxfce4menu-0.1.pot, *.po: Update translation files just to make
+              sure they are up to date for the string-freeze release.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29123 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5962,9 +6683,9 @@ commit 0a0d90859dacae8589fbf2915283b41b84f0d224
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Jan 6 00:25:06 2009 +0000
 
-    	* libxfce4menu/xfce-menu.c, libxfce4menu/xfce-menu-item-cache.c:
-    	  Review strings.
-     	* libxfce4menu-0.1.pot, *.po: Update translation files.
+            * libxfce4menu/xfce-menu.c, libxfce4menu/xfce-menu-item-cache.c:
+              Review strings.
+            * libxfce4menu-0.1.pot, *.po: Update translation files.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29103 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -5981,11 +6702,11 @@ commit 66ffe1a70f12acda3a487e8036fad452f374fb18
 Author: Nick Schermer <nickschermer@gmail.com>
 Date:   Fri Jan 2 11:30:34 2009 +0000
 
-    	* libxfce4menu/xfce-menu-item-cache.c,
-    	  libxfce4menu/xfce-menu-separator.c: Add weak pointer to
-    	  XfceMenuItemCache and XfceMenuSeparator so you can init and shutdown
-    	  the library multiple times without running into trouble.
-    	* NEWS: Update.
+            * libxfce4menu/xfce-menu-item-cache.c,
+              libxfce4menu/xfce-menu-separator.c: Add weak pointer to
+              XfceMenuItemCache and XfceMenuSeparator so you can init and shutdown
+              the library multiple times without running into trouble.
+            * NEWS: Update.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29074 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6013,30 +6734,27 @@ commit 985cffc94c408c020aea117631604e933fe4ac43
 Author: Alexander Toresson <alexander.toresson@gmail.com>
 Date:   Tue Dec 9 23:22:24 2008 +0000
 
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     
     
     
     
     
-     	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
-    
-    
-    
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
     
     
     
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
-    
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
     
     
     
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
+    
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
     
     
     
@@ -6046,13 +6764,16 @@ Date:   Tue Dec 9 23:22:24 2008 +0000
     
     
     
-     	* sv.po: Swedish translation update (Daniel Nylander)
-    
-     	* sv.po: Swedish translation update (Daniel Nylander)
     
     
     
-     	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
+    
+            * sv.po: Swedish translation update (Daniel Nylander)
+    
+    
+    
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@29000 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6070,7 +6791,7 @@ commit 293ae06dafca3de6e411a9a30f1470d3d531a103
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Dec 6 00:58:40 2008 +0000
 
-    	* configure.in.in: Re-add svn version tag.
+            * configure.in.in: Re-add svn version tag.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@28981 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6078,13 +6799,13 @@ commit a5adfa0d56077724580c17dd0f160ba2f2b087f5
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Thu Dec 4 13:55:16 2008 +0000
 
-    	* libxfce4menu/xfce-menu.c: Always use xfce_menu_get_element() when
-    	  comparing two menu elements instead of handling menus and items
-    	  in different ways.
-    	* libxfce4menu/xfce-menu-item.c: Minor cleanup of the
-    	  XfceMenuElement functions.
-    	* tests/test-display-menu.c: Always use xfce_menu_get_element(), never
-    	  use xfce_menu_item_get_name() directly.
+            * libxfce4menu/xfce-menu.c: Always use xfce_menu_get_element() when
+              comparing two menu elements instead of handling menus and items
+              in different ways.
+            * libxfce4menu/xfce-menu-item.c: Minor cleanup of the
+              XfceMenuElement functions.
+            * tests/test-display-menu.c: Always use xfce_menu_get_element(), never
+              use xfce_menu_item_get_name() directly.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@28979 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6151,9 +6872,9 @@ commit 1d126e9e7ef23704f2a09e349e22b6abe88ef111
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Nov 11 14:37:36 2008 +0000
 
-    	* == 4.5.92 released ==
-    	* configure.in.in: Bump version and update dependencies.
-    	* NEWS: Update NEWS file.
+            * == 4.5.92 released ==
+            * configure.in.in: Bump version and update dependencies.
+            * NEWS: Update NEWS file.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@28748 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6185,8 +6906,8 @@ commit 5b2400555df4aa072e88a5baa7ae3855e817b151
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Oct 28 22:33:05 2008 +0000
 
-    	* libxfce4menu/libxfce4menu-config.h.in,
-    	  libxfce4menu/xfce-menu-item.c: Fix copyright header.
+            * libxfce4menu/libxfce4menu-config.h.in,
+              libxfce4menu/xfce-menu-item.c: Fix copyright header.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@28488 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6245,7 +6966,7 @@ commit 83e33c32fc0ac4515982b44d4bda34425ec3f0d3
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Sep 12 19:51:16 2008 +0000
 
-    	* NEWS, TODO: Updated for the alpha release.
+            * NEWS, TODO: Updated for the alpha release.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27839 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6272,9 +6993,9 @@ commit ad29e5b3c1efc65a0d53f9e3db8c469e5bedc151
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Sep 2 00:40:30 2008 +0000
 
-    	* libxfce4menu/xfce-menu-item-cache.c: Properly release the mutex at
-    	  the end of xfce_menu_item_cache_foreach(). Calling g_mutex_lock()
-    	  won't unlock the mutex ...
+            * libxfce4menu/xfce-menu-item-cache.c: Properly release the mutex at
+              the end of xfce_menu_item_cache_foreach(). Calling g_mutex_lock()
+              won't unlock the mutex ...
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27641 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6283,10 +7004,10 @@ commit 70bec376c18bb124ec56f0bfa1f4476ce52f1a81
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Aug 31 18:53:12 2008 +0000
 
-    	* libxfce4menu/xfce-menu-item.{c,h}: Add
-    	  xfce_menu_item_only_show_in_environment() function which checks
-    	  whether the current environment is present in the OnlyShowIn key of
-    	  a menu item. This should close bug #3741.
+            * libxfce4menu/xfce-menu-item.{c,h}: Add
+              xfce_menu_item_only_show_in_environment() function which checks
+              whether the current environment is present in the OnlyShowIn key of
+              a menu item. This should close bug #3741.
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27630 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6304,8 +7025,8 @@ commit 0112a278930b5062524048128ce0558101185b84
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Aug 30 22:16:11 2008 +0000
 
-    	* autogen.sh: Don't print errors when trying to detect the
-    	  revision of a git svn repository.
+            * autogen.sh: Don't print errors when trying to detect the
+              revision of a git svn repository.
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27618 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6381,8 +7102,8 @@ commit bcf3b0de3e69f82d023280e07a481583f3b74d74
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Jul 15 10:53:42 2008 +0000
 
-    	* autogen.sh: Change @REVISION@ substitution for git svn
-    	  repositories again.
+            * autogen.sh: Change @REVISION@ substitution for git svn
+              repositories again.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27293 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6390,7 +7111,7 @@ commit d5ae635c2fe8ca87e3ba0514621f1b596612f222
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Wed Jul 9 22:23:53 2008 +0000
 
-    	* autogen.sh: Fix @REVISION@ substitution when using git svn.
+            * autogen.sh: Fix @REVISION@ substitution when using git svn.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27250 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6417,10 +7138,10 @@ commit 1bc82e0492f8dbdbfa5c72916d942ccb30ae0fa9
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Jul 6 21:44:05 2008 +0000
 
-    	* libxfce4menu/xfce-menu.c: Add #if 0 around
-    	  xfce_menu_resolve_legacy_menus() and
-    	  xfce_menu_resolve_legacy_menu(). Avoids build errors on some
-    	  systems.
+            * libxfce4menu/xfce-menu.c: Add #if 0 around
+              xfce_menu_resolve_legacy_menus() and
+              xfce_menu_resolve_legacy_menu(). Avoids build errors on some
+              systems.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@27223 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6485,8 +7206,8 @@ commit 9de05134d7fac0aa26ac97979befd88afa8f58c4
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Wed Feb 6 09:34:11 2008 +0000
 
-    	* STATUS: Status file updated, mainly to reflect the progress made
-    	  with filesystem monitoring.
+            * STATUS: Status file updated, mainly to reflect the progress made
+              with filesystem monitoring.
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26596 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6505,15 +7226,15 @@ commit bac6f45bf2a616aed6e1545af6b572a54507068d
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Wed Jan 2 15:50:33 2008 +0000
 
-    	* libxfce4menu/xfce-menu-item.{c,h}: Add support for the Comment field
-    	  via xfce_menu_item_get_comment().
-    	* libxfce4menu/xfce-menu-monitor.{c,h}: Add support for defining what
-    	  kind of files/directories are monitored (XfceMenuMonitorFlags,
-    	  xfce_menu_monitor_set_flags(), xfce_menu_monitor_get_flags(),
-    	  xfce_menu_monitor_has_flags()).
-    	* libxfce4menu/xfce-menu.c: Check monitor flags before adding
-    	  files/directories to the monitoring system.
-    	* tests/test-display-menu.c: Center window on screen.
+            * libxfce4menu/xfce-menu-item.{c,h}: Add support for the Comment field
+              via xfce_menu_item_get_comment().
+            * libxfce4menu/xfce-menu-monitor.{c,h}: Add support for defining what
+              kind of files/directories are monitored (XfceMenuMonitorFlags,
+              xfce_menu_monitor_set_flags(), xfce_menu_monitor_get_flags(),
+              xfce_menu_monitor_has_flags()).
+            * libxfce4menu/xfce-menu.c: Check monitor flags before adding
+              files/directories to the monitoring system.
+            * tests/test-display-menu.c: Center window on screen.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26527 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6521,14 +7242,14 @@ commit 71eec541808987498dca4e8e4e1bf8d18494cf2a
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Thu Dec 27 00:13:05 2007 +0000
 
-    	* libxfce4menu/xfce-menu-monitor.c: Use the KEY, not the VALUE pointer
-    	  to remove items from the shared handle hash table. In this case, use
-    	  the directory string instead of the shared handle. This should fix
-    	  the issue we've had with monitoring directories only.
-    	  xfce_menu_item_has_category (XfceMenuItem *, const char *).
-    	  This can be used in combination with file monitoring: Once something
-    	  has changed a) destroy the current menu, b) invalidate the cache and
-    	  c) create the menu again.
+            * libxfce4menu/xfce-menu-monitor.c: Use the KEY, not the VALUE pointer
+              to remove items from the shared handle hash table. In this case, use
+              the directory string instead of the shared handle. This should fix
+              the issue we've had with monitoring directories only.
+              xfce_menu_item_has_category (XfceMenuItem *, const char *).
+              This can be used in combination with file monitoring: Once something
+              has changed a) destroy the current menu, b) invalidate the cache and
+              c) create the menu again.
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26507 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6537,14 +7258,14 @@ commit a9fa0a52b9172768c514c1e1482fd35f8d046614
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Dec 22 23:38:52 2007 +0000
 
-    	* libxfce4menu/xfce-menu-item.{c,h}: Add support for "GenericName" as
-    	  requested by Brian. Also add a convenience function
-    		xfce_menu_item_has_category (XfceMenuItem *, const char *).
-    	* libxfce4menu/xfce-menu-item-cache.c: Re-add caching features, but now
-    	  also allow the cache to be invalidated using _item_cache_invalidate().
-    		This can be used in combination with file monitoring: Once something
-    		has changed a) destroy the current menu, b) invalidate the cache and
-    		c) create the menu again.
+            * libxfce4menu/xfce-menu-item.{c,h}: Add support for "GenericName" as
+              requested by Brian. Also add a convenience function
+                    xfce_menu_item_has_category (XfceMenuItem *, const char *).
+            * libxfce4menu/xfce-menu-item-cache.c: Re-add caching features, but now
+              also allow the cache to be invalidated using _item_cache_invalidate().
+                    This can be used in combination with file monitoring: Once something
+                    has changed a) destroy the current menu, b) invalidate the cache and
+                    c) create the menu again.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26500 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6595,10 +7316,10 @@ commit a45538e52638c3492990b46253ed4054aae4df62
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Oct 21 11:56:29 2007 +0000
 
-    	* libxfce4menu/xfce-menu-item.{c,h}: Add support for the "Path"
-    	  key of the .desktop entries. This makes it possible to start
-    	  menu items in a special working directory. Will make fixing
-    	  bug #3472 easier.
+            * libxfce4menu/xfce-menu-item.{c,h}: Add support for the "Path"
+              key of the .desktop entries. This makes it possible to start
+              menu items in a special working directory. Will make fixing
+              bug #3472 easier.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26170 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6606,20 +7327,20 @@ commit db1763f4aa780058a8099288df9efa040565f89c
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Oct 20 20:23:43 2007 +0000
 
-    	* libxfce4menu/xfce-menu-monitor.c: No, let's do it
-    	  differently: You can now redefine the vtable. You can also
-    	  clear it by passing NULL. Whenever you want to change the
-    	  user_data, just pass the same vtable as before.
-    	* libxfce4menu/xfce-menu-item-cache.c: Deactivate the cache
-    	  for now. Perhaps we can add it later, together with fast
-    	  checksum support to detect filesystem changes.
+            * libxfce4menu/xfce-menu-monitor.c: No, let's do it
+              differently: You can now redefine the vtable. You can also
+              clear it by passing NULL. Whenever you want to change the
+              user_data, just pass the same vtable as before.
+            * libxfce4menu/xfce-menu-item-cache.c: Deactivate the cache
+              for now. Perhaps we can add it later, together with fast
+              checksum support to detect filesystem changes.
     
-    	* libxfce4menu/xfce-menu-monitor.c: Add vtable != NULL check
-    	  to xfce_menu_monitor_set_vtable. Avoids crashes when passing
-    	  a NULL pointer and makes other developers aware of what they
-    	  might be doing wrong.
-    	* STATUS: Updated the status file to reflect the
-    	  current implementation status.
+            * libxfce4menu/xfce-menu-monitor.c: Add vtable != NULL check
+              to xfce_menu_monitor_set_vtable. Avoids crashes when passing
+              a NULL pointer and makes other developers aware of what they
+              might be doing wrong.
+            * STATUS: Updated the status file to reflect the
+              current implementation status.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26163 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6627,12 +7348,12 @@ commit 066e813ad75539ab24ab714a641608c188828ddd
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Oct 20 19:44:48 2007 +0000
 
-    	* libxfce4menu/xfce-menu-monitor.c: Add vtable != NULL check
-    	  to xfce_menu_monitor_set_vtable. Avoids crashes when passing
-    	  a NULL pointer and makes other developers aware of what they
-    	  might be doing wrong.
-    	* STATUS: Updated the status file to reflect the
-    	  current implementation status.
+            * libxfce4menu/xfce-menu-monitor.c: Add vtable != NULL check
+              to xfce_menu_monitor_set_vtable. Avoids crashes when passing
+              a NULL pointer and makes other developers aware of what they
+              might be doing wrong.
+            * STATUS: Updated the status file to reflect the
+              current implementation status.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26161 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6640,8 +7361,8 @@ commit 55a0c73811b54f0b4317257e606ed0a0fdc0ea2d
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Oct 12 12:27:27 2007 +0000
 
-    	* STATUS: Updated the status file to reflect the
-    	  current implementation status.
+            * STATUS: Updated the status file to reflect the
+              current implementation status.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26129 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6649,9 +7370,9 @@ commit ea24c095a21addd6b918845f2d613a569c483cfc
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Sep 25 21:56:21 2007 +0000
 
-    	* libxfce4menu/xfce-menu-layout.c: As a follow-up to
-    	  the last commit, fix the disabled code. There is no
-    	  parameter named 'layout'.
+            * libxfce4menu/xfce-menu-layout.c: As a follow-up to
+              the last commit, fix the disabled code. There is no
+              parameter named 'layout'.
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26112 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6660,10 +7381,10 @@ commit 3c74b9ef0183885b496dd36b3f27cb93361e21f3
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Tue Sep 25 02:34:54 2007 +0000
 
-    	* libxfce4menu/xfce-menu-layout.c: Fix bug #3568 which
-    	  was caused by the layout variable not being used in
-    	  _set_property and _get_property. Thanks to Tomasz Mon
-    	  for the hint.
+            * libxfce4menu/xfce-menu-layout.c: Fix bug #3568 which
+              was caused by the layout variable not being used in
+              _set_property and _get_property. Thanks to Tomasz Mon
+              for the hint.
     
     
     
@@ -6686,17 +7407,17 @@ commit 9f2e54ed171630d4ab4cb9ec306513f24ba5ece5
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Thu Sep 20 20:32:20 2007 +0000
 
-    	* libxfce4menu/xfce-menu-monitor.c: Use g_str_hash and
-    	  g_str_equal for the file/directory to monitor handle
-    	  hash table, rather than comparing the pointers directly.
-    	* libxfce4menu/xfce-menu.c: Create submenu monitors after
-    	  parsing by traversing the XfceMenu tree but remove them
-    	  in xfce_menu_finalize (so creating the monitors happens
-    	  in the root menu, removing is handled inside the
-    	  submenus). Now all monitors are properly removed when
-    	  the root menu is destroyed.
-    	* tests/test-display-root-menu.c: Print the pseudo monitor
-    	  handle ID in monitor_file and monitor_directory.
+            * libxfce4menu/xfce-menu-monitor.c: Use g_str_hash and
+              g_str_equal for the file/directory to monitor handle
+              hash table, rather than comparing the pointers directly.
+            * libxfce4menu/xfce-menu.c: Create submenu monitors after
+              parsing by traversing the XfceMenu tree but remove them
+              in xfce_menu_finalize (so creating the monitors happens
+              in the root menu, removing is handled inside the
+              submenus). Now all monitors are properly removed when
+              the root menu is destroyed.
+            * tests/test-display-root-menu.c: Print the pseudo monitor
+              handle ID in monitor_file and monitor_directory.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26090 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6704,18 +7425,18 @@ commit 8626eb2a1f0b5c7947c576afca6937f4c37b19bd
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Wed Sep 19 22:28:31 2007 +0000
 
-    	* libxfce4menu/xfce-menu-monitor.{c,h}: Added methods to
-    	  monitor files and directories. That way we can now add
-    	  monitors for the main menu file as well as menu .directory
-    	  files and the application directories - I think that's
-    	  all we need. Since there may be several XfceMenu's monotoring
-    	  the same application directories and menu files, those
-    	  are managed using a reference counting mechanism, so that
-    	  the monitor is only removed when all menus have asked
-    	  to remove the monitor on them.
-    	* libxfce4menu/xfce-menu.c: Monitor the main menu file as
-    	  well as .directory files and application directories. And
-    	  of course remove the monitors when the menu is destroyed.
+            * libxfce4menu/xfce-menu-monitor.{c,h}: Added methods to
+              monitor files and directories. That way we can now add
+              monitors for the main menu file as well as menu .directory
+              files and the application directories - I think that's
+              all we need. Since there may be several XfceMenu's monotoring
+              the same application directories and menu files, those
+              are managed using a reference counting mechanism, so that
+              the monitor is only removed when all menus have asked
+              to remove the monitor on them.
+            * libxfce4menu/xfce-menu.c: Monitor the main menu file as
+              well as .directory files and application directories. And
+              of course remove the monitors when the menu is destroyed.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@26088 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6732,9 +7453,9 @@ commit f70ba560f9a667510887941d824fc42cccced1cf
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Tue May 22 13:29:18 2007 +0000
 
-    2007-05-22	Benedikt Meurer <benny@xfce.org>
+    2007-05-22      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4menu/Makefile.am: Fix typo.
+            * libxfce4menu/Makefile.am: Fix typo.
     
     
     
@@ -6745,9 +7466,9 @@ commit 52618e95cf5ee7273b3ba78807f8b1421e5bbf9d
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun May 20 12:52:55 2007 +0000
 
-    	* configure.in.in: Disable empty AC_CHECK_FUNCS([]) call for
-    	  now. Fixes syntax error on IRIX (bug #3251, reported by
-    	  Daichi).
+            * configure.in.in: Disable empty AC_CHECK_FUNCS([]) call for
+              now. Fixes syntax error on IRIX (bug #3251, reported by
+              Daichi).
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25730 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6755,9 +7476,9 @@ commit 3cd1f38929de276f002443d7b6c615d6adaf1ad6
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Mar 25 15:32:56 2007 +0000
 
-    	* libxfce4menu/xfce-menu-monitor.c: Use if statement
-    	  rather than g_return_(val_)if_fail to check whether vtable
-    	  functions have been set.
+            * libxfce4menu/xfce-menu-monitor.c: Use if statement
+              rather than g_return_(val_)if_fail to check whether vtable
+              functions have been set.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25294 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6765,8 +7486,8 @@ commit 84d807d267207375c63ac084ac6f729cea68c3ff
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sun Mar 25 11:56:37 2007 +0000
 
-    	* libxfce4menu/xfce-menu.c: Fix weird typo as noted by
-    	  Jens Luedicke.
+            * libxfce4menu/xfce-menu.c: Fix weird typo as noted by
+              Jens Luedicke.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25288 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6774,8 +7495,8 @@ commit 4eac36da54a48146426a12dfa3781bd3cede382e
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Mar 24 22:51:33 2007 +0000
 
-    	  Add a missing NULL to g_strjoin() in xfce-menu.c as reported
-    	  by Jens Luedicke.
+              Add a missing NULL to g_strjoin() in xfce-menu.c as reported
+              by Jens Luedicke.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25282 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6783,17 +7504,17 @@ commit e67b27ad4e307cc4d4bfc2962a891967ed6233a7
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Sat Mar 24 22:40:49 2007 +0000
 
-    	* libxfce4menu/Makefile.am, libxfce4menu/xfce-menu.c,
-    	  libxfce4menu/xfce-menu-monitor.{c,h}: Add monitoring support
-    	  by making it possible for library clients to define a vtable
-    	  with functions to be called whenever monitoring a file or
-    	  directory becomes necessary. This way Thunar and xfdesktop
-    	  can use ThunarVFS for monitoring and I don't need to care
-    	  about how they do it. Note: xfce_menu_monitor_notify_change()
-    	  is missing but will be adedd as soon as possible.
-    	* tests/test-display-menu.c: Add some dummy code for testing
-    	  the monitoring system.
-    	* docs/reference/: Updated and reorganized API docs.
+            * libxfce4menu/Makefile.am, libxfce4menu/xfce-menu.c,
+              libxfce4menu/xfce-menu-monitor.{c,h}: Add monitoring support
+              by making it possible for library clients to define a vtable
+              with functions to be called whenever monitoring a file or
+              directory becomes necessary. This way Thunar and xfdesktop
+              can use ThunarVFS for monitoring and I don't need to care
+              about how they do it. Note: xfce_menu_monitor_notify_change()
+              is missing but will be adedd as soon as possible.
+            * tests/test-display-menu.c: Add some dummy code for testing
+              the monitoring system.
+            * docs/reference/: Updated and reorganized API docs.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25281 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6801,12 +7522,12 @@ commit ddd6873908882078a64ec93a2e8ae044fae2e2ee
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Mar 23 21:38:16 2007 +0000
 
-    	* POTFILES.in: Add source files.
-    	* de.po, libxfce4menu-0.1.pot, LINGUAS: Add POT file and
-    	  initial German translations.
-     	* libxfce4menu/*.c: Remove gettext calls for strings
-    	  we don't really need to translate. Add gettext calls
-    	  were it makes sense. Remove several debug messages.
+            * POTFILES.in: Add source files.
+            * de.po, libxfce4menu-0.1.pot, LINGUAS: Add POT file and
+              initial German translations.
+            * libxfce4menu/*.c: Remove gettext calls for strings
+              we don't really need to translate. Add gettext calls
+              were it makes sense. Remove several debug messages.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25275 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6814,17 +7535,17 @@ commit 99e6bb7d532769f2210bd2f4629633624f4a40be
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Mar 23 19:20:47 2007 +0000
 
-    	* libxfce4menu/libxfce4menu.h, libxfce4menu/Makefile.am,
-    	  libxfce4menu/xfce-menu-element.{c,h}: XfceMenuElement
-    	  interface with methods xfce_menu_element_get_name() and
-    	  xfce_menu_element_get_icon_name() added.
-    	* libxfce4menu/xfce-menu.c, libxfce4menu/xfce-menu-item.c,
-    	  libxfce4menu/xfce-menu-separator.c: Add XfceMenuElementIface
-    	  to XfceMenu, XfceMenuItem and XfceMenuSeparator. Rename
-    	  xfce_menu_get_layout_items() to
-    	  xfce_menu_get_layout_elements().
-    	* tests/test-display-menu.c: Use XfceMenuElement methods
-    	  where possible.
+            * libxfce4menu/libxfce4menu.h, libxfce4menu/Makefile.am,
+              libxfce4menu/xfce-menu-element.{c,h}: XfceMenuElement
+              interface with methods xfce_menu_element_get_name() and
+              xfce_menu_element_get_icon_name() added.
+            * libxfce4menu/xfce-menu.c, libxfce4menu/xfce-menu-item.c,
+              libxfce4menu/xfce-menu-separator.c: Add XfceMenuElementIface
+              to XfceMenu, XfceMenuItem and XfceMenuSeparator. Rename
+              xfce_menu_get_layout_items() to
+              xfce_menu_get_layout_elements().
+            * tests/test-display-menu.c: Use XfceMenuElement methods
+              where possible.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25273 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6832,8 +7553,8 @@ commit 0651045d4939318cb29f73224e24e4b845784ba6
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Mar 23 17:13:56 2007 +0000
 
-    	* tests/Makefile.am, tests/test-display-menu.c: Test program
-    	  for displaying a menu added again.
+            * tests/Makefile.am, tests/test-display-menu.c: Test program
+              for displaying a menu added again.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25271 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6841,10 +7562,10 @@ commit 3af482ea7fe7d47283f1fbc03c0fde06e62e83e7
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Mar 23 11:11:47 2007 +0000
 
-    	* docs/reference/tmpl/: Remove tdb related files from
-    	  SVN. They won't be installed to the system anyway.
-    	* tests/Makefile.am, tests/test-menu-spec.c: Test program for
-    	  the menu specification test suite added again.
+            * docs/reference/tmpl/: Remove tdb related files from
+              SVN. They won't be installed to the system anyway.
+            * tests/Makefile.am, tests/test-menu-spec.c: Test program for
+              the menu specification test suite added again.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25266 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
@@ -6852,8 +7573,8 @@ commit db673127a9af87a1840930b94a20dad60f5cb9fb
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Mar 23 02:34:02 2007 +0000
 
-    	* libxfce4menu/libxfce4menu-0.1.pc.in: Update pkg-config
-    	  information to point to the new header file location.
+            * libxfce4menu/libxfce4menu-0.1.pc.in: Update pkg-config
+              information to point to the new header file location.
     
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25263 a0aa69c2-05f4-0310-b83c-d5d913b14636
@@ -6862,8 +7583,8 @@ commit 7ec187ba7c40c7f7114e66b9ceae434eb67d1c61
 Author: Jannis Pohlmann <info@sten-net.de>
 Date:   Fri Mar 23 02:20:35 2007 +0000
 
-    	* libxfce4menu/Makefile.am: Install header files to
-    	  $includedir/xfce4/libxfce4menu-<version>/libxfce4menu/.
+            * libxfce4menu/Makefile.am: Install header files to
+              $includedir/xfce4/libxfce4menu-<version>/libxfce4menu/.
     
     git-svn-id: https://svn.xfce.org/svn/xfce/libxfce4menu/trunk@25262 a0aa69c2-05f4-0310-b83c-d5d913b14636
 
