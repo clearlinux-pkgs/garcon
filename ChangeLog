@@ -1,3 +1,109 @@
+commit 0da014b63bbf8c0ce071aeda432d712e506c180d
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sun Jun 11 13:06:31 2017 +0300
+
+    Revert "Docs: generate and add the new functions"
+    
+    This reverts commit cfcadc4ac3a1bd0e4385e11735c57b5338ac1095.
+    
+    This breaks make distcheck. We can recommit it once it's fixed
+    and the functions are documented better.
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit 354c707e87ed47fb388bb5aa262187d25c363143
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Thu Jun 8 18:26:24 2017 +0300
+
+    Remove extraneous libxfce4ui-1 check
+    
+    Thanks to Unit193 for pointing it out.
+
+commit cfcadc4ac3a1bd0e4385e11735c57b5338ac1095
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed May 10 05:32:56 2017 +0300
+
+    Docs: generate and add the new functions
+
+commit bae90e1fe32d3189a691c348231d9326f1bd2c74
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Wed May 3 02:57:57 2017 +0300
+
+    Fix garcon-2 reference (Bug #13543)
+    
+    garcon-gtk3-1 was still referencing libgarcon-2.
+
+commit 07b4dbe0768cca731c2c5a93bf5b7384b4dfeb90
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Mon May 1 08:16:47 2017 +0300
+
+    Drop libgarcon-2
+    
+    libgarcon-1 doesn't have any changes that require a libgarcon-2,
+    both versions of garcon-gtk[23] work just fine with libgarcon-1.
+
+commit 41c87455659fe9016dbb1bae2d66bfa565f9eac9
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Mon May 1 08:09:54 2017 +0300
+
+    Make building garcon-gtk2 optional
+    
+    If Gtk2 and libfce4ui-1 are both present we'll continue to build
+    the garcon-gtk2 module but this allows us to migrate away from
+    Gtk2 once everything using it is updated.
+
+commit 20c07ec654a0e9411beeb83bf276ead5f7f6ef47
+Author: Apóstolos Papaðimitríu <apostolos.papadimitriu@gmail.com>
+Date:   Sun Apr 30 12:30:10 2017 +0200
+
+    I18n: Update translation el (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit bbbc9765f30e8d529ff5fa3455d6ba14891ab5b1
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Fri Apr 28 12:30:25 2017 +0200
+
+    I18n: Update translation sr (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 54b623327742137d0166cf4c6d68a1b5aec90dd4
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Apr 28 06:30:17 2017 +0200
+
+    I18n: Update translation gl (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 9fed07cd4f70cbc7e33a7fcfcd85c9213df8977a
+Author: Aljoša Žagar <anthon.manix@gmail.com>
+Date:   Mon Apr 24 18:30:27 2017 +0200
+
+    I18n: Update translation sl (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 343eb8a4db8e64b318ad5b11eb3388df10acb4af
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sun Apr 16 07:46:31 2017 +0300
+
+    Post release tag bump.
+
+commit 881b92c8e220a37ace68a7663affa2f459f14ad8
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sun Apr 16 07:39:14 2017 +0300
+
+    Updates for release.
+
 commit e65389b7d0e0ca99dedb9b25319244f981dbdf1c
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Fri Apr 14 10:28:48 2017 +0200
