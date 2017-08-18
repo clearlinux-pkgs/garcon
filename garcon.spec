@@ -4,7 +4,7 @@
 #
 Name     : garcon
 Version  : 0.6.1
-Release  : 14
+Release  : 15
 URL      : http://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.1.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.1.tar.bz2
 Summary  : Freedesktop.org compliant menu library
@@ -94,7 +94,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1497219905
+export SOURCE_DATE_EPOCH=1503073738
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
@@ -106,7 +106,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1497219905
+export SOURCE_DATE_EPOCH=1503073738
 rm -rf %{buildroot}
 %make_install
 %find_lang garcon
