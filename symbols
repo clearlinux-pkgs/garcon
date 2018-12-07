@@ -63,6 +63,7 @@ libgarcon-1.so.0:garcon_menu_item_get_file
 libgarcon-1.so.0:garcon_menu_item_get_generic_name
 libgarcon-1.so.0:garcon_menu_item_get_hidden
 libgarcon-1.so.0:garcon_menu_item_get_icon_name
+libgarcon-1.so.0:garcon_menu_item_get_keywords
 libgarcon-1.so.0:garcon_menu_item_get_name
 libgarcon-1.so.0:garcon_menu_item_get_no_display
 libgarcon-1.so.0:garcon_menu_item_get_path
@@ -72,6 +73,7 @@ libgarcon-1.so.0:garcon_menu_item_get_type
 libgarcon-1.so.0:garcon_menu_item_get_uri
 libgarcon-1.so.0:garcon_menu_item_has_action
 libgarcon-1.so.0:garcon_menu_item_has_category
+libgarcon-1.so.0:garcon_menu_item_has_keyword
 libgarcon-1.so.0:garcon_menu_item_increment_allocated
 libgarcon-1.so.0:garcon_menu_item_new
 libgarcon-1.so.0:garcon_menu_item_new_for_path
@@ -98,6 +100,7 @@ libgarcon-1.so.0:garcon_menu_item_set_desktop_id
 libgarcon-1.so.0:garcon_menu_item_set_generic_name
 libgarcon-1.so.0:garcon_menu_item_set_hidden
 libgarcon-1.so.0:garcon_menu_item_set_icon_name
+libgarcon-1.so.0:garcon_menu_item_set_keywords
 libgarcon-1.so.0:garcon_menu_item_set_name
 libgarcon-1.so.0:garcon_menu_item_set_no_display
 libgarcon-1.so.0:garcon_menu_item_set_path
