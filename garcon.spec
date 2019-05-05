@@ -4,10 +4,10 @@
 #
 Name     : garcon
 Version  : 0.6.2
-Release  : 18
+Release  : 19
 URL      : http://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.2.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.2.tar.bz2
-Summary  : Freedesktop.org compliant menu library
+Summary  : Implementation of the freedesktop.org menu specification
 Group    : Development/Tools
 License  : LGPL-2.0
 Requires: garcon-data = %{version}-%{release}
@@ -56,6 +56,7 @@ Group: Development
 Requires: garcon-lib = %{version}-%{release}
 Requires: garcon-data = %{version}-%{release}
 Provides: garcon-devel = %{version}-%{release}
+Requires: garcon = %{version}-%{release}
 
 %description dev
 dev components for the garcon package.
@@ -103,7 +104,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1544194021
+export SOURCE_DATE_EPOCH=1557086061
+export AR=gcc-ar
+export RANLIB=gcc-ranlib
+export NM=gcc-nm
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -115,7 +123,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1544194021
+export SOURCE_DATE_EPOCH=1557086061
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/garcon
 cp COPYING %{buildroot}/usr/share/package-licenses/garcon/COPYING
