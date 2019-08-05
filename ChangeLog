@@ -1,3 +1,67 @@
+commit db9e013651face7cd064259a857f8b6ea1572686
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Wed Jul 24 12:30:20 2019 +0200
+
+    I18n: Update translation nb (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c3d4a1e49643bb1605e6adc8c5b6cc0667380ed2
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Sun Jul 21 18:30:18 2019 +0200
+
+    I18n: Update translation fi (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 96329fa5739f8b202063d8d579736fd62fdce6e7
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 00:30:19 2019 +0200
+
+    I18n: Update translation fi (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 71ad5acc82386c4223d1f3aacec9fc2011ec1278
+Author: Real School <translator_students@realschool.am>
+Date:   Mon Jul 8 12:30:19 2019 +0200
+
+    I18n: Add new translation hy (100%).
+    
+    36 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6ed1ee270fc8ec923e73adee610fef5d9e0b0ab0
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Jul 6 13:43:38 2019 -0300
+
+    Update gitignore
+
+commit 6f452937366bb1599fb0ae986958786d52946f15
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Jul 6 13:42:20 2019 -0300
+
+    Fix use after free crash (Bug #15679)
+
+commit edeb8a179b6ded9c19219f6af7fe75e43f752b32
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Mon Jul 1 00:31:20 2019 +0200
+
+    Back to development
+
+commit 5b722c9fc7312f1e0b348b8877233a51a2f6461c
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Mon Jul 1 00:30:11 2019 +0200
+
+    Updates for release
+
 commit 88e970ae2f1def4346ea9e36c7594272679d234b
 Author: Real School <translator_students@realschool.am>
 Date:   Thu Jun 20 12:30:18 2019 +0200
