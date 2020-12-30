@@ -1,3 +1,59 @@
+0.8.0
+======
+- fix GarconMenuItem file documentation
+- Remove GSourceFunc casts
+- Remove GLIB_CHECK_VERSION IFDEFs which are obsolete after glib bump
+
+
+0.7.3
+=====
+- garcon now needs libxfce4ui/4util 4.15.6+
+- Use the symbolic close icon in the error dialog
+- Don't launch apps as children
+- bump glib (and gio, gthread, etc) minimum to 2.50.0
+- relax automake requirement to 1.15
+- Add new icon needed for xfce4-about-dialog.
+- Translation Updates:
+  Slovenian
+
+0.7.2
+======
+- Update README.md
+- Translation Updates:
+  Armenian, Armenian (Armenia), Hebrew, Lithuanian, Occitan (post 1500),
+  Uyghur
+
+0.7.1
+======
+- Drop support for Gtk2
+- Drop Gtk3 ifdefs
+- Switch to xfce_gtk_image_menu_item
+- Add support for GObject Introspection (Fixes #4)
+- Improve GObject introspection annotations (Fixes #8)
+- Fix missing transfer annotation
+- Field codes expansion API update
+- Transfer some code to libxfce4util
+- Fix default merge rules in xfce-applications.menu (Bug #15504)
+- Rename exo-helpers to the new xfce4-xx ones
+- Do not add INSTALL in dist tarball
+- Fix a memory leak
+- Switch to README.md and foreign automake mode
+- README: Use table for debug arguments
+- Add basic GitLab pipeline
+- Translation Updates:
+  Albanian, Asturian, Chinese (Hong Kong), Danish, Dutch, Eastern
+  Armenian, Estonian, Greek, Hebrew, Indonesian, Interlingue, Norwegian
+  Nynorsk, Polish, Portuguese, Uzbek, Uzbek (Latin)
+
+0.7.0
+======
+- Add garcon_menu_item_[g|s]et_keywords to docs
+- Add garcon_gtk_menu_get_desktop_actions_menu
+- Improve docstrings
+- Translation Updates:
+  Albanian, Asturian, Belarusian, Chinese (Taiwan), Galician, Georgian,
+  Hindi, Spanish
+
 0.6.4
 ======
  - Update gitignore
