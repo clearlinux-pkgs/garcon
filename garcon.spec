@@ -5,8 +5,8 @@
 Name     : garcon
 Version  : 0.8.0
 Release  : 23
-URL      : https://archive.xfce.org/xfce/4.16/src/garcon-0.8.0.tar.bz2
-Source0  : https://archive.xfce.org/xfce/4.16/src/garcon-0.8.0.tar.bz2
+URL      : https://archive.xfce.org/src/xfce/garcon/0.8/garcon-0.8.0.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/garcon/0.8/garcon-0.8.0.tar.bz2
 Summary  : Freedesktop.org compliant menu library
 Group    : Development/Tools
 License  : LGPL-2.0
