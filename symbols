@@ -67,6 +67,7 @@ libgarcon-1.so.0:garcon_menu_item_get_keywords
 libgarcon-1.so.0:garcon_menu_item_get_name
 libgarcon-1.so.0:garcon_menu_item_get_no_display
 libgarcon-1.so.0:garcon_menu_item_get_path
+libgarcon-1.so.0:garcon_menu_item_get_prefers_non_default_gpu
 libgarcon-1.so.0:garcon_menu_item_get_show_in_environment
 libgarcon-1.so.0:garcon_menu_item_get_try_exec
 libgarcon-1.so.0:garcon_menu_item_get_type
@@ -104,6 +105,7 @@ libgarcon-1.so.0:garcon_menu_item_set_keywords
 libgarcon-1.so.0:garcon_menu_item_set_name
 libgarcon-1.so.0:garcon_menu_item_set_no_display
 libgarcon-1.so.0:garcon_menu_item_set_path
+libgarcon-1.so.0:garcon_menu_item_set_prefers_non_default_gpu
 libgarcon-1.so.0:garcon_menu_item_set_requires_terminal
 libgarcon-1.so.0:garcon_menu_item_set_supports_startup_notification
 libgarcon-1.so.0:garcon_menu_item_set_try_exec
